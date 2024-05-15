@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const EstilosGlobais = createGlobalStyle`
 
+
 html {
   line-height: 1.15; 
   -webkit-text-size-adjust: 100%; 
@@ -9,6 +10,7 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 main {
