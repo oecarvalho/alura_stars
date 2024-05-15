@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import EstilosGlobais from './assets/components/EstilosGlobais';
 import Cabecalho from './assets/components/Cabecalho';
 import BarraLateral from './assets/components/BarraLateral';
+import Banner from './assets/components/Banner';
 
 
 const FundoGradiente = styled.div`
@@ -17,6 +18,10 @@ export default function App() {
     <EstilosGlobais/>
     <Cabecalho/>
     <BarraLateral/>
+    <Banner
+      texto='A galeria mais completa de fotos do espaço!'
+      backgroundImage='../public/images/fotodestaque.png'
+    />
    </FundoGradiente>
   )
 }

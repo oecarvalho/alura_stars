@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 
 const ItemListaEstilizado = styled.li`
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 29px;
     margin-bottom: 30px;
     cursor: pointer;

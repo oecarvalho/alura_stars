@@ -21,6 +21,38 @@ export default function BarraLateral(){
                    >
                     Início
                    </ItemNavegacao>
+
+                   <ItemNavegacao 
+                    iconeAtivo='/icones/mais-vistas-ativo.png'
+                    IconeInativo='/icones/mais-vistas-inativo.png'
+                    ativo={false}
+                   >
+                    Mais Vistas
+                   </ItemNavegacao>
+
+                   <ItemNavegacao 
+                    iconeAtivo='/icones/mais-curtidas-ativo.png'
+                    IconeInativo='/icones/mais-curtidas-inativo.png'
+                    ativo={false}
+                   >
+                    Mais Curtidas
+                   </ItemNavegacao>
+
+                   <ItemNavegacao 
+                    iconeAtivo='/icones/novas-ativo.png'
+                    IconeInativo='/icones/novas-inativo.png'
+                    ativo={false}
+                   >
+                    Novas
+                   </ItemNavegacao>
+
+                   <ItemNavegacao 
+                    iconeAtivo='/icones/surpreenda-me-ativo.png'
+                    IconeInativo='/icones/surpreenda-me-inativo.png'
+                    ativo={false}
+                   >
+                    Surpreenda-me
+                   </ItemNavegacao>
                 </ListaEstilizada>
             </nav>
         </aside>
